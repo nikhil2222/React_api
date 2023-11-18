@@ -1,0 +1,120 @@
+.container{
+    display: flex;
+    flex-direction: column ;
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 30px;
+    width: 600px;
+    height: 600px;
+    font-size: 16px;
+    font-family: Poppins;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.text{
+    color: #ffff;
+    font-size: 32px;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+.inputs{
+    margin-top: 55px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;  
+    margin-top: 0px ;
+    
+}
+
+.inputspass{
+    margin-top: 55px;
+    margin-left: 96px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    height: 50px;
+    width: 400px;
+    background-color: transparent;
+    border-radius: 16px;
+    border:2px solid black;
+    border-color: #ffff;
+    outline: none;
+    font-size: 19px;
+}
+
+.inputpassword input{
+    height: 40px;
+    width: 340px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:#ffff;
+    font-size: 19px;
+}
+.password-icon{
+    margin-top: 12px;
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background-color: transparent;
+    border-radius: 16px;
+    border-color: #ffff;
+    outline: none;
+    color:#ffff;
+    font-size: 19px;
+}
+
+
+
+.new-registration{
+    padding-left:250px;
+    margin-top: 27px ;
+    color: #ffff;
+    font-size: 16px;
+   
+}
+
+.new-registration span{
+   cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 30px 95px;
+    
+    
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 420px;
+    height: 59px;
+    align-self: center;
+    color: #ffff;
+    background: #4c00b4;
+    border-radius: 19px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
